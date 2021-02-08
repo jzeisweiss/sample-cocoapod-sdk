@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'sample-cocoapod-sdk' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for sample-cocoapod-sdk
+
+  pod 'Moya', :git => 'https://github.com/Moya/Moya', :tag => "14.0.0"
+  pod 'ReactiveSwift', :git => 'https://github.com/ReactiveCocoa/ReactiveSwift', :tag => "6.2.1"
+  pod 'SwiftPhoenixClient', :git => 'https://github.com/davidstump/SwiftPhoenixClient', :tag => "1.2.1"
+  pod 'ios-socket-client', :git => 'https://github.com/salemove/ios-socket-client', :tag => "v9.1.0"
+  pod 'glia-webrtc/bitcode', :git => 'https://github.com/salemove/ios-webrtc', :tag => "0.0.3"
+  pod 'Macaw', :git => 'https://github.com/exyte/Macaw', :tag => "0.9.7"
+  pod 'TwilioVoice', :git => 'https://github.com/salemove/twilio-voice-ios', :tag => "5.5.0.g"
+
+end
